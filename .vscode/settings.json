@@ -1,4 +1,4 @@
 {
   "eslint.workingDirectories": ["./", "./appleredesign"],
-  "cSpell.words": ["groq", "headlessui", "hotspot", "Macbook"]
+  "cSpell.words": ["groq", "headlessui", "hotspot", "Macbook", "wldb"]
 }
