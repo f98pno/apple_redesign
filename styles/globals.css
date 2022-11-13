@@ -3,6 +3,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwindcss /forms;
+@tailwindcss /typography;
+@tailwindcss /aspect-ratio;
 
 @layer base {
   body {
