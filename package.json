@@ -14,6 +14,7 @@
     "@stripe/stripe-js": "^1.44.1",
     "next": "latest",
     "next-auth": "^4.16.4",
+    "next-auth-sanity": "^1.4.4",
     "next-sanity": "^1.0.3",
     "react": "18.1.0",
     "react-currency-formatter": "^1.1.0",
