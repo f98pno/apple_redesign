@@ -4,8 +4,16 @@ import { Provider } from 'react-redux'
 import { store } from '../redux/store'
 import { Toaster } from 'react-hot-toast'
 import { SessionProvider } from 'next-auth/react'
+import type { Session } from 'next-auth'
 
-function MyApp({ Component, pageProps: { session, ...pageProps } }: AppProps) {
+interface CustomPagepProps {
+  session: Session
+}
+
+function MyApp({
+  Component,
+  pageProps: { session, ...pageProps },
+}: AppProps<CustomPagepProps>) {
   return (
     // Higher order component
     <SessionProvider session={session}>
